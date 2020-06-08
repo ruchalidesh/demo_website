@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<header class="header">
+		<nav class=" navbar-inverse  navbar-fixed-right" role="navigation">
+			<nav class="navbar navbar-style">
+				<div class="container">
+					<div class="navbar-header">
+						<a href="#"><img class="logo" src="logo.png"> </a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<nav class="navbar navbar-expand-sm bg-white">
+						<div class="collapse navbar-collapse" id="menu">
+							<ul class="nav navbar-nav mr-auto">
+								<li class="nav-item">
+									<a class="nav-link " href="#">Home</a></li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Benefits</a></li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Login</a></li>
+							</ul>
+							<ul class="nav navbar-nav mr-auto">
+								<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+									aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header text-center">
+												<h4 class="modal-title w-50 font-weight-bold">SignUp</h4>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body mx-3">
+												<div class="md-form mb-3">
+													<i class="fas fa-envelope prefix grey-text"></i>
+													<input type="email" id="defaultForm-email" class="form-control validate">
+													<label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+												</div>
+												<div class="md-form mb-3">
+													<i class="fas fa-lock prefix grey-text"></i>
+													<input type="password" id="defaultForm-pass" class="form-control validate">
+													<label data-error="wrong" data-success="right" for="defaultForm-pass">password</label>
+												</div>
+												<div class="md-form mb-3">
+													<i class="fas fa-lock prefix grey-text"></i>
+													<input type="password" id="defaultForm-pass" class="form-control validate">
+													<label data-error="wrong" data-success="right" for="defaultForm-pass"> confirm
+														password</label>
+												</div>
+												<div class="modal-footer d-flex justify-content-center">
+													<button class="btn btn-default">SignUp</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="#" class="btn btn-default btn-rounded mb-4" data-toggle="modal"
+										data-target="#modalLoginForm">SignUp</a>
+								</div>
+							</ul>
+						</div>
+					</nav>
+			</nav>
+		</nav>
+		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 banner-info">
+					<h1>Better Insights,
+						Better Decisions</h1>
+					<p>Marammat is the No. 1 construction project delivery automation tool. You can create projects
+						within seconds
+						and track all aspects of delivery with its easy to use UI. Experience superior delivery
+						automation and stay
+						on top of your business.</p>
+					<button type="button" class="btn btn-primary active btn-lg">Get Started</button>
+					<button type="button" class="btn btn-info btn-lg">Watch Video</button>
+				</div>
+				<div class="col-md-6 col-sm-6 banner-image">
+					<img src="illustration-construction-new.svg" class="img-responsive">
+
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-xs-6">
+					<div class="video">
+						<img src="video1.png" height="500px">
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="container-fluid bg-info my-2">
+			<div class="row">
+				<div class="col-md-12 col-sm-6">
+					<div class="benefits">
+						<h3>Marammat SaaS helps improve productivity</h3>
+						<p class="card-text">While renovating your house or during a big construction project, poor
+							decisons are
+							taken
+							by both
+							customers and the contractors, maily due to lack of digitalization, delayed information,
+							irrelevant or
+							improper analytics. Too many paper documents like invoices, proposals and information flow
+							not being
+							real-time presents a problem of poor decision and unreliable insights, hence poor
+							productivity and
+							inefficiency. mSaaS connects the filed to the office in real-time 24/7 with timely insights.
+						</p>
+						<h3>Benefits</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<div class="container bg-white">
+			<div class="shadow-lg p-3 mb-5 bg-white rounded">
+				<div class="row">
+					<div class="col-sm-4 col-xs-4 bg-white">
+						<div class="demo">
+							<h5>Offices and fields connected 24/7</h5>
+							<img class="imgdemo" src="a.svg" height=50px width=100% text-align=center;>
+							<p class="card-text">Architects and Contractors better manage renovations and deliver</p>
+						</div>
+					</div>
+					<div class="col-sm-4 bg-white">
+						<div class="demo">
+							<h5>In sync with your customers 24/7</h5>
+							<img class="imgdemo" src="a1.svg" height=50px width=500px text-align=center;>
+							<p class="card-text">Customer can keep better track of their renovation projects</p>
+						</div>
+					</div>
+					<div class="col-sm-4 bg-white">
+						<div class="demo">
+							<h5>Real time data and field insights</h5>
+							<img class="imgdemo" src="a3.svg" height=50px width=100% text-align=center;>
+							<p class="card-text">Get real time insights, better scope and cost overrun control</p>
+						</div>
+					</div>
+					<div class="col-sm-4 bg-white">
+						<div class="demo">
+							<h5>Integration with other softwares you use</h5>
+							<img class="imgdemo" src="a4.svg" height=50px width=100% text-align=center;>
+							<p class="card-text">open Api's allow for easy integration with any exisiting software that
+								your company
+								already has.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 bg-white">
+						<div class="demo">
+							<h5>Built-in reports and data collection forms</h5>
+							<img class="imgdemo" src="a5.svg" height=50px width=100% text-align=center;>
+							<p class="card-text">Choose from many different readymade forms suitable for your company for
+								easy data
+								collection.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 bg-white">
+						<div class="demo">
+
+							<h5>Work as one team, in sync</h5>
+							<img class="imgdemo" src="a6.svg" height=50px width=100% text-align=center;>
+							<p class="card-text">Create and manage projects with inputs from all - architects, contractors
+								as
+								well as customers</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-xs-6">
+					<div class=demo2>
+						<h2>Superior collaboration
+							and 'in-app sub-contracting' capabilities</h2>
+						<p>
+							With Marammat's cloud based software, you can split your entire project work into milestones
+							and
+							submilestones, assign them to sub-contractors and track their progress, in real-time.
+							Project updates
+							can
+							be shared easily with all collaborators instantly ensuring superior collaborations and easy
+							sub-contracting.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="container-fluid bg-primary ">
+			<div class="row" height="20px" ;>
+				<div class="col-sm-8 col-sm-4">
+					<img class="screen" src="screen.png">
+					<br>
+					<div class="demo3">
+						<h4>Project management SaaS</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+</body>
+
+</html>

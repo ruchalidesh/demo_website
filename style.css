@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height:100vh;
+}
+.navbar-style{
+	background: #fff;
+	box-shadow: 0 5px 10px #efefef;
+margin-top: 0;
+margin-bottom:0;
+	position: sticky;
+
+}
+.logo
+{
+	float:left;
+	height: 50px;
+	padding: 2px 5px;
+}
+.nav-link
+{
+	display:flex;
+	justify-content:space-between;
+	text-decoration:none;
+	color:darkblue;
+  font-size:15px;
+}
+h1{
+	padding-top: 80px;
+	color: #053E57;
+  font-weight: bolder;
+}
+p{
+	color:#053E57;
+	font-size:20px;
+}
+.banner-info,.banner-image
+{
+	margin: 50px 0;
+	
+}
+.video{
+	position: relative;
+	display: inline-flex;
+	border: 5px solid white;
+	box-shadow:20px 20px 20px grey;
+  margin-left:50px;
+	height: 500px;
+	width: 80%;
+	margin-top: 40px;
+	
+	}
+.benefits {
+box-sizing:content-box;
+margin: 0;
+padding: 0;
+color:white;
+text-align: center;
+padding-bottom:30px;
+padding-top: 30px;
+overflow: hidden;
+}
+.card-text
+{
+	color:white;
+}
+.card
+{
+	height:300px;
+width:300px;
+	
+}
+.card-text{
+	width: 80%;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 14px;
+		text-align: justify;
+		color: #053e57;
+}
+.imgdemo{
+	height: 120px;
+    width: 80%;
+	border-radius: 10px;
+    padding: 12px;
+    background: rgba(51,153,255,0.1);
+    margin: 10px;
+}
+
+.card-header{
+	color:black;
+}
+.demo{
+	margin-top: 30px;
+	color: #053e57;
+	font-style: initial;
+	padding-top:30px;
+	box-sizing: border-box
+}
+.demo2{
+	text-align: center;
+}
+.screen {
+	justify-content: center;
+padding-left:200px;
+overflow:hidden;
+}
+.demo3{
+	box-sizing:initial;
+	margin-bottom:10px;
+	text-align: center;
+	color: white;
+	justify-content: center;
+	padding-left:320px;
+	
+}
