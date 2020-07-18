@@ -36,6 +36,29 @@ p{
 	color:#053E57;
 	font-size:20px;
 }
+.bouncee{
+	animation-iteration-count:infinite;
+	animation-delay: 2s;
+	height:120px;
+ width:70%;
+border-radius: 10px;
+ padding: 12px;
+ padding-top: 0;
+ padding-right: 0%;
+ background:#0facf3;;
+ margin: 10px;
+}
+.bouncee1{
+	animation-iteration-count:infinite;
+		 animation-delay: 2s;
+		 height:110px;
+		 padding-top: 0;
+		 padding-bottom:0;
+    width:100%;
+	border-radius: 10px;
+    background:white;
+
+}
 .banner-info,.banner-image
 {
 	margin: 50px 0;
